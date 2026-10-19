@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'comprazo — Compara precios en todas tus tiendas',
-  description: 'Encuentra y compara productos de Amazon, AliExpress, Alibaba y más en un solo lugar.',
+  title: 'ImportaPro | Cotiza e importa mejor',
+  description: 'Calcula el costo real de tus importaciones y compra con confianza.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -40,6 +40,49 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  const clean = (el) => {
+                    if (!el || !el.attributes) return;
+                    for (let i = el.attributes.length - 1; i >= 0; i--) {
+                      const n = el.attributes[i].name;
+                      if (n.startsWith('bis_') || n.startsWith('__processed_')) {
+                        el.removeAttribute(n);
+                      }
+                    }
+                  };
+                  const obs = new MutationObserver((mutations) => {
+                    for (const m of mutations) {
+                      if (m.type === 'attributes') {
+                        const n = m.attributeName;
+                        if (n && (n.startsWith('bis_') || n.startsWith('__processed_'))) {
+                          m.target.removeAttribute(n);
+                        }
+                      } else if (m.type === 'childList') {
+                        m.addedNodes.forEach((node) => {
+                          if (node.nodeType === 1) {
+                            clean(node);
+                            if (node.querySelectorAll) node.querySelectorAll('*').forEach(clean);
+                          }
+                        });
+                      }
+                    }
+                  });
+                  obs.observe(document.documentElement, {
+                    attributes: true,
+                    childList: true,
+                    subtree: true,
+                  });
+                } catch(e) {}
+              })();
+            `,
+          }}
+        />
+      </head>
       <body className="antialiased" suppressHydrationWarning>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}

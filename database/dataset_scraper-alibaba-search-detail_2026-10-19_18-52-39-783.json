@@ -1,0 +1,157 @@
+[{
+  "url": "https://www.alibaba.com/product-detail/Factory-Quick-Heating-Rotating-360-Degrees_1601566880657.html?locale=en_US&language=en&currency=USD",
+  "title": "Factory Quick Heating Rotating 360 Degrees Height Adjustable Infrared Hair Dryer Processor Color Standing Hair Dryer Machine",
+  "price": "106",
+  "productLadderPrices": [
+    {
+      "min": 1,
+      "max": 19,
+      "price": 1279.61
+    },
+    {
+      "min": 20,
+      "max": 499,
+      "price": 1207.18
+    },
+    {
+      "min": 500,
+      "max": 999,
+      "price": 1086.46
+    },
+    {
+      "min": 1000,
+      "max": -1,
+      "price": 965.75
+    }
+  ],
+  "moq": 1,
+  "dimensions": "83X58X35",
+  "weight": "9.35",
+  "images": [
+    "https://sc04.alicdn.com/kf/H390c1bb391644100b357c6b8ba500a2fg.png",
+    "https://sc04.alicdn.com/kf/Hc0251b5bfa3c4587ad6caf53a165f32dy.png",
+    "https://sc04.alicdn.com/kf/H9a477f326d5743c2af30435f9b31948c3.png",
+    "https://sc04.alicdn.com/kf/H4e45a484db114408bf367e3f121231d9W.png",
+    "https://sc04.alicdn.com/kf/H4d0fddaa841c4a71b888da798275a501g.png",
+    "https://sc04.alicdn.com/kf/H194c45c353a04dfea72eac99cb39acdbh.png"
+  ],
+  "characteristics": [
+    {
+      "attrName": "material",
+      "attrValue": "Stainless Steel"
+    },
+    {
+      "attrName": "mail packing",
+      "attrValue": "Y"
+    },
+    {
+      "attrName": "application",
+      "attrValue": "Home Office, Office Building, Apartment, barber, salon"
+    },
+    {
+      "attrName": "design style",
+      "attrValue": "Modern"
+    },
+    {
+      "attrName": "folded",
+      "attrValue": "No"
+    },
+    {
+      "attrName": "place of origin",
+      "attrValue": "Fujian, China"
+    },
+    {
+      "attrName": "brand name",
+      "attrValue": "CONRIS"
+    },
+    {
+      "attrName": "model number",
+      "attrValue": "SU-245"
+    },
+    {
+      "attrName": "Feature",
+      "attrValue": "Adjustable, Eco-Friendly, Durable"
+    },
+    {
+      "attrName": "Color",
+      "attrValue": "Custom"
+    },
+    {
+      "attrName": "Certificate",
+      "attrValue": "CE ISO"
+    },
+    {
+      "attrName": "Warranty",
+      "attrValue": "2 Year"
+    },
+    {
+      "attrName": "OEM/ODM",
+      "attrValue": "Avaliable"
+    },
+    {
+      "attrName": "Logo",
+      "attrValue": "Accept Customized Logo"
+    },
+    {
+      "attrName": "Packing",
+      "attrValue": "1 PC / CARTON"
+    },
+    {
+      "attrName": "Application",
+      "attrValue": "Hair Beauty Salon"
+    },
+    {
+      "attrName": "Usage",
+      "attrValue": "Beauty Spa Equipment"
+    },
+    {
+      "attrName": "Specific Use",
+      "attrValue": "Salon Funriture"
+    },
+    {
+      "attrName": "MOQ",
+      "attrValue": "1 Piece"
+    },
+    {
+      "attrName": "General Use",
+      "attrValue": "Commercial Furniture"
+    },
+    {
+      "attrName": "Type",
+      "attrValue": "Salon Furniture"
+    }
+  ],
+  "variations": [
+    {
+      "name": "color",
+      "variants": [
+        {
+          "name": "White",
+          "price": "106",
+          "image": "https://sc04.alicdn.com/kf/Hdb6a27d0c730468abacb72191f4acab7h.png"
+        },
+        {
+          "name": "Black",
+          "price": "106",
+          "image": "https://sc04.alicdn.com/kf/Ha0d19a35763e4703af63a0674520a8b8V.png"
+        },
+        {
+          "name": "Sliver",
+          "price": "106",
+          "image": "https://sc04.alicdn.com/kf/Hd7edfaa0d80a4c86a9a2ece36b0127848.png"
+        }
+      ]
+    },
+    {
+      "name": "size",
+      "variants": [
+        {
+          "name": "1",
+          "price": "106",
+          "image": "https://sc04.alicdn.com/kf/H390c1bb391644100b357c6b8ba500a2fg.png"
+        }
+      ]
+    }
+  ],
+  "productId": 1601566880657
+}]
